@@ -38,6 +38,7 @@ class MyStack<E> implements IStack<E>
 public class ExamStack2 {
 	public static void main(String[] args) {
 		// 1. MyStack 객체를 만든다.
+		// IStack<String> deq = new MyStack<>(new ArrayDeque<String>());
 		Deque<String> deq = new LinkedList<>();
 		// 2. push()를 이용해서 5개정도의 데이터를 넣어보자.
 		deq.push("a");
