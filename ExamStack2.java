@@ -1,6 +1,6 @@
 import java.util.*;
 
-//Generic I/F
+//Generic I/F을 이용해서 Deque의 견고함 확보
 interface IStack<E>
 {
 	public boolean push(E item);
